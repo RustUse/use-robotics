@@ -1,0 +1,59 @@
+[workspace]
+members = [
+    "crates/use-robotics",
+    "crates/use-robot",
+    "crates/use-robot-id",
+    "crates/use-joint",
+    "crates/use-actuator",
+    "crates/use-robot-sensor",
+    "crates/use-pose",
+    "crates/use-frame",
+    "crates/use-end-effector",
+    "crates/use-kinematics-label",
+    "crates/use-robot-subsystem",
+]
+resolver = "3"
+
+[workspace.package]
+authors = ["RustUse Contributors"]
+version = "0.0.1"
+edition = "2024"
+rust-version = "1.95.0"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/RustUse/use-robotics"
+homepage = "https://rustuse.org"
+readme = "README.md"
+publish = false
+
+[workspace.dependencies]
+use-actuator = { version = "0.0.1", path = "crates/use-actuator" }
+use-end-effector = { version = "0.0.1", path = "crates/use-end-effector" }
+use-frame = { version = "0.0.1", path = "crates/use-frame" }
+use-joint = { version = "0.0.1", path = "crates/use-joint" }
+use-kinematics-label = { version = "0.0.1", path = "crates/use-kinematics-label" }
+use-pose = { version = "0.0.1", path = "crates/use-pose" }
+use-robot = { version = "0.0.1", path = "crates/use-robot" }
+use-robot-id = { version = "0.0.1", path = "crates/use-robot-id" }
+use-robot-sensor = { version = "0.0.1", path = "crates/use-robot-sensor" }
+use-robot-subsystem = { version = "0.0.1", path = "crates/use-robot-subsystem" }
+use-robotics = { version = "0.0.1", path = "crates/use-robotics" }
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.metadata.rustuse.release]
+publish = false
+versioning = "lockstep-0.x"
+first-publish-candidates = [
+    "use-robot",
+    "use-robot-id",
+    "use-joint",
+    "use-actuator",
+    "use-robot-sensor",
+    "use-pose",
+    "use-frame",
+    "use-end-effector",
+    "use-kinematics-label",
+    "use-robot-subsystem",
+    "use-robotics",
+]

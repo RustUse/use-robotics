@@ -1,0 +1,21 @@
+[package]
+name = "use-robot-id"
+description = "Primitive robot identity vocabulary for RustUse"
+publish = true
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+readme = "README.md"
+documentation = "https://docs.rs/use-robot-id"
+keywords = ["robot", "identity", "id", "rustuse"]
+categories = ["data-structures", "science"]
+
+[package.metadata.docs.rs]
+all-features = true
+
+[lints]
+workspace = true

@@ -1,0 +1,21 @@
+[package]
+name = "use-joint"
+description = "Primitive robot joint vocabulary for RustUse"
+publish = true
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+readme = "README.md"
+documentation = "https://docs.rs/use-joint"
+keywords = ["joint", "robotics", "vocabulary", "rustuse"]
+categories = ["data-structures", "science"]
+
+[package.metadata.docs.rs]
+all-features = true
+
+[lints]
+workspace = true

@@ -1,0 +1,21 @@
+[package]
+name = "use-end-effector"
+description = "Primitive end-effector vocabulary for RustUse robotics"
+publish = true
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+readme = "README.md"
+documentation = "https://docs.rs/use-end-effector"
+keywords = ["robotics", "tool", "gripper", "rustuse"]
+categories = ["data-structures", "science"]
+
+[package.metadata.docs.rs]
+all-features = true
+
+[lints]
+workspace = true

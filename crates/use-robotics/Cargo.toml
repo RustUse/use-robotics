@@ -1,0 +1,33 @@
+[package]
+name = "use-robotics"
+description = "Facade crate for RustUse robotics vocabulary primitives"
+publish = true
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+readme = "README.md"
+documentation = "https://docs.rs/use-robotics"
+keywords = ["robotics", "facade", "robots", "rustuse"]
+categories = ["data-structures", "science"]
+
+[package.metadata.docs.rs]
+all-features = true
+
+[dependencies]
+use-actuator.workspace = true
+use-end-effector.workspace = true
+use-frame.workspace = true
+use-joint.workspace = true
+use-kinematics-label.workspace = true
+use-pose.workspace = true
+use-robot.workspace = true
+use-robot-id.workspace = true
+use-robot-sensor.workspace = true
+use-robot-subsystem.workspace = true
+
+[lints]
+workspace = true
