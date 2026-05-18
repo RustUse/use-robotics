@@ -1,0 +1,93 @@
+[workspace]
+release = false
+release_always = false
+changelog_update = false
+pr_labels = ["release"]
+max_analyze_commits = 2000
+
+[[package]]
+name = "use-robot"
+release = true
+version_group = "rustuse-robotics"
+
+[[package]]
+name = "use-robot-id"
+release = true
+version_group = "rustuse-robotics"
+
+[[package]]
+name = "use-joint"
+release = true
+version_group = "rustuse-robotics"
+
+[[package]]
+name = "use-actuator"
+release = true
+version_group = "rustuse-robotics"
+
+[[package]]
+name = "use-robot-sensor"
+release = true
+version_group = "rustuse-robotics"
+
+[[package]]
+name = "use-pose"
+release = true
+version_group = "rustuse-robotics"
+
+[[package]]
+name = "use-frame"
+release = true
+version_group = "rustuse-robotics"
+
+[[package]]
+name = "use-end-effector"
+release = true
+version_group = "rustuse-robotics"
+
+[[package]]
+name = "use-kinematics-label"
+release = true
+version_group = "rustuse-robotics"
+
+[[package]]
+name = "use-robot-subsystem"
+release = true
+version_group = "rustuse-robotics"
+
+[[package]]
+name = "use-robotics"
+release = true
+version_group = "rustuse-robotics"
+changelog_update = true
+changelog_path = "./CHANGELOG.md"
+changelog_include = [
+  "use-robot",
+  "use-robot-id",
+  "use-joint",
+  "use-actuator",
+  "use-robot-sensor",
+  "use-pose",
+  "use-frame",
+  "use-end-effector",
+  "use-kinematics-label",
+  "use-robot-subsystem",
+]
+
+[changelog]
+header = """# Changelog
+
+## Unreleased
+"""
+protect_breaking_commits = true
+sort_commits = "oldest"
+commit_parsers = [
+  { message = "^feat(?:\\([^)]+\\))?!?: .+", group = "Added" },
+  { message = "^fix(?:\\([^)]+\\))?!?: .+", group = "Fixed" },
+  { message = "^security(?:\\([^)]+\\))?!?: .+", group = "Security" },
+  { message = "^(?:refactor|perf|change)(?:\\([^)]+\\))?!?: .+", group = "Changed" },
+  { message = "^docs(?:\\([^)]+\\))?!?: .+", group = "Documentation" },
+  { message = "^(?:build|ci|chore|deps|test)(?:\\([^)]+\\))?!?: .+", group = "Tooling" },
+  { footer = "^changelog: ?ignore$", skip = true },
+  { message = "^.*", group = "Changed" },
+]
