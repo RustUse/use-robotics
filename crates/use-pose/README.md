@@ -1,6 +1,6 @@
 # use-pose
 
-Primitive robot pose vocabulary for RustUse robotics.
+Primitive robot pose vocabulary for `RustUse` robotics.
 
 This crate provides pose names, pose-kind labels, 2D and 3D pose labels, and orientation-kind labels. It does not solve transforms, implement coordinate geometry, plan motion, interpolate poses, or duplicate `use-geometry`.
 

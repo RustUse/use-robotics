@@ -1,6 +1,6 @@
 # use-frame
 
-Primitive coordinate frame vocabulary for RustUse robotics.
+Primitive coordinate frame vocabulary for `RustUse` robotics.
 
 This crate provides frame names, frame kinds, frame references, and parent/child frame relations. It does not implement TF trees, transform buffers, coordinate conversion, or geometry math.
 

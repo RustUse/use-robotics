@@ -1,6 +1,6 @@
 # use-robot
 
-Primitive robot vocabulary for RustUse.
+Primitive robot vocabulary for `RustUse`.
 
 This crate provides descriptive robot names, kinds, models, and manufacturers. It does not create robot registries, connect to robots, control robots, or implement robot configuration systems.
 

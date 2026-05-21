@@ -1,6 +1,6 @@
 # use-kinematics-label
 
-Primitive kinematics terminology labels for RustUse robotics.
+Primitive kinematics terminology labels for `RustUse` robotics.
 
 This crate provides descriptive kinematics kinds, kinematic chain names, link names, and non-zero degrees of freedom. It does not implement forward kinematics, inverse kinematics, Jacobians, solvers, or robot dynamics.
 

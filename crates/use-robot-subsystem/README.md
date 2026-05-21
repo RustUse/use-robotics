@@ -1,6 +1,6 @@
 # use-robot-subsystem
 
-Primitive robot subsystem vocabulary for RustUse robotics.
+Primitive robot subsystem vocabulary for `RustUse` robotics.
 
 This crate describes robot subsystem names, subsystem kinds, and lifecycle/status labels. It does not orchestrate subsystems, implement runtime supervision, implement health monitoring frameworks, implement robot middleware, or model distributed systems behavior.
 

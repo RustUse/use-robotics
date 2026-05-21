@@ -1,6 +1,6 @@
 # use-robot-id
 
-Primitive robot identity vocabulary for RustUse.
+Primitive robot identity vocabulary for `RustUse`.
 
 This crate stores robot IDs, serial numbers, and instance IDs as stable owned strings. It preserves caller casing and punctuation and rejects empty identifiers. It does not generate UUIDs, create inventory management systems, connect to asset systems, or fetch robot metadata.
 

@@ -1,6 +1,6 @@
 # use-robotics
 
-Facade crate for the RustUse robotics vocabulary set.
+Facade crate for the `RustUse` robotics vocabulary set.
 
 This crate re-exports the focused child crates behind explicit module names. It is documentation and composition glue only; implementation lives in the focused crates.
 

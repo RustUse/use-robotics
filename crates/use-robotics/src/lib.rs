@@ -1,7 +1,7 @@
 #![forbid(unsafe_code)]
 #![doc = include_str!("../README.md")]
 
-//! Thin facade for RustUse robotics vocabulary primitive crates.
+//! Thin facade for `RustUse` robotics vocabulary primitive crates.
 
 pub use use_actuator as actuator;
 pub use use_end_effector as end_effector;

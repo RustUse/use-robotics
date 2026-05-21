@@ -1,6 +1,6 @@
 # use-robot-sensor
 
-Primitive robot sensor vocabulary for RustUse robotics.
+Primitive robot sensor vocabulary for `RustUse` robotics.
 
 This crate describes robot sensor names, kinds, mounts, and reading-kind labels. It does not read sensors, process images, process point clouds, perform SLAM, or implement sensor fusion.
 

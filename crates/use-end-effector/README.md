@@ -1,6 +1,6 @@
 # use-end-effector
 
-Primitive end-effector vocabulary for RustUse robotics.
+Primitive end-effector vocabulary for `RustUse` robotics.
 
 This crate describes end-effector names, kinds, grip states, and tool mounts. It does not command grippers, implement tool changing logic, implement force control, or simulate contact.
 

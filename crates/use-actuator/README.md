@@ -1,6 +1,6 @@
 # use-actuator
 
-Primitive actuator vocabulary for RustUse robotics.
+Primitive actuator vocabulary for `RustUse` robotics.
 
 This crate describes actuator names, kinds, states, and ratings. It does not command actuators, implement motor control, implement PID control, or provide hardware drivers.
 

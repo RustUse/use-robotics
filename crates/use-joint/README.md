@@ -1,6 +1,6 @@
 # use-joint
 
-Primitive robot joint vocabulary for RustUse.
+Primitive robot joint vocabulary for `RustUse`.
 
 This crate provides descriptive joint names, kinds, limits, axes, and indexes. It does not solve kinematics, enforce robot-specific constraints, control motors, or simulate motion.
 
