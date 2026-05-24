@@ -21,7 +21,7 @@ jobs:
         use-robot use-robot-id use-joint use-actuator use-robot-sensor use-pose use-frame use-end-effector use-kinematics-label use-robot-subsystem
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Install stable Rust toolchain
         uses: actions-rust-lang/setup-rust-toolchain@v1
